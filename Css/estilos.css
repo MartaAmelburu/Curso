@@ -1,0 +1,53 @@
+/* comentario 
+
+-Selector es todo lo que viene antes de las llaves
+-llaves obligatorias
+-propiedad: color, back, etc
+-poner ;
+
+
+FORMAS DE LLAMAR HTML DESDE CSS
+
+-con su etiqueta directamente
+p{
+    color:blueviolet
+}
+*/
+
+/* -llamar por su id
+#supertitulo {
+
+}*/
+
+/* -llamar por su clase
+<h3 class= "">*/
+
+/* -llamar por asterisco*/
+
+
+
+/* tipo de letra, tipo*/
+
+h1{
+    font-size: 55px;
+    color:teal;
+    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color:mediumpurple;
+    font-style: italic; 
+    line-height: 1.2;
+    text-align: center;
+}
+
+.negrita{
+font-weight: bold;
+/* etiqueta span class para envolver algo en negrita*/
+}
+
+.subrayado {
+
+    text-decoration: underline green;
+}
