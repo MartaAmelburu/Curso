@@ -137,6 +137,7 @@ li{
     background-color: rgb(255, 224, 240);
     margin: 0px auto;
     display: block; 
+    padding: 5px 10px;
     width: max-content;
     
 }
