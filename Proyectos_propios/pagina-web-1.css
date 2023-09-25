@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.title_web{
+    font-size: 8px;
+    background-color: black;
+    padding: 20px 0px;
+    color: white;
+    
+}
+
+.title_web h1 {
+    margin-left: 70px;
+}
+.first_block {
+    background-color:#dadbf1;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.button_submit{
+    padding: 7px;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border-color: aliceblue;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button_singin{
+    background-color:#4C5FD5;
+    color: white;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.search_bar{
+    
+}

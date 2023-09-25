@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://picsum.photos/id/237/32">
+
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <h1>Formularios</h1>
+
+
+    <form>
+        <label for="nombre">Nombre</label>
+        <input 
+            id="nombre" 
+            type="text" 
+            placeholder="John" 
+            name="nombre"
+            minlength="3"
+            maxlength="50"
+            required
+        >
+        <br><br>
+
+        <label>Apellidos
+            <input type="text" placeholder="Smilga" name="apellido">
+        </label>
+
+        <br><br>
+        <label>Email
+            <input type="email" placeholder="Smilga" name="email">
+        </label>
+
+        <br><br>
+        <label>Contraseña
+            <input type="password" name="pass">
+        </label>
+
+        <br><br>
+        <label>Edad
+            <input 
+                type="number" 
+                placeholder="36" 
+                name="edad"
+                min="18"
+                max="150"
+                step="0.01"
+            >
+        </label>
+
+        <br><br>
+        <label>Aniversario
+            <input type="date" name="birthday">
+        </label>
+
+        <br><br>
+        <label>Color favorito
+            <input type="color" name="color">
+        </label>
+
+        <br><br>
+        <label>Subir avatar
+            <input type="file" name="avatar">
+        </label>
+
+        <br><br>
+        <label>Rango
+            <input 
+                type="range"  
+                name="rango"
+                min="0"
+                max="10"
+                step="5"
+                value="0"
+            >
+        </label>
+
+        <h2>Inputs de selección</h2>
+        <h3>Checkbox</h3>
+        <label>
+            <input type="checkbox">
+            ¿Aceptas la politica de privacidad?
+        </label>
+
+        <br><br>
+
+        <h3>Radio</h3>
+
+        <h4>Género</h4>
+        <label>
+            <input type="radio" name="genero">            
+            Femenino
+        </label>
+
+        <label>
+            <input type="radio" name="genero">            
+            Masculino
+        </label>
+
+        <label>
+            <input type="radio" name="genero">            
+            No binario
+        </label>
+
+        <br><br>
+
+        <h3>Seleccionable</h3>
+        <label for="ciudad">Escoge una ciudad</label>
+        <select id="ciudad" name="ciudad">
+            <option value=""></option>
+            <option value="barcelona">Barcelona</option>
+            <option value="tarragona">Tarragona</option>
+            <option value="girona">Girona</option>
+            <option value="lleida">Lleida</option>
+        </select>
+
+        <br><br>
+
+        <label for="mensaje">Escribe un mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="mensaje..."></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+        <button type="button">Botón normal</button>
+    </form>
+    
+
+
+
+
+
+
+
+
+    <button>Botón fuera</button>
+  </body>
+</html>
