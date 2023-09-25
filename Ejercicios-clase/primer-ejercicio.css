@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+.centered {
+    text-align: center;
+}
+
+.basics {
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+
+.dates {
+    font-weight: 600;
+    color: tomato;
+    
+}
+.titles {
+    font-weight: 900;
+    text-transform: uppercase; /*o capitalize*/
+    text-align: center;
+}
+
+.links {
+    color: deeppink;
+    text-decoration: none;
+}
+
+.enfatice {
+    font-size: 20px;
+}
+
+.colorlinks {
+    color: crimson;
+}
+
+li{
+    color: deeppink;
+}
+
+.texto-amarillo {
+    color: rgb(255, 255, 000);
+}
