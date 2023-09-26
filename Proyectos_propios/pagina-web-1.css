@@ -9,17 +9,23 @@
     background-color: black;
     padding: 20px 0px;
     color: white;
-    
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: space-between;
 }
 
 .title_web h1 {
-    margin-left: 70px;
+    margin-top:5px;
+    margin-left:70px;
+    
 }
 .first_block {
     background-color:#dadbf1;
     text-align: center;
     padding: 100px 0px;
     font-size: 40px;
+    
+    
     
 }
 
@@ -34,6 +40,8 @@
     transition-property: background-color;
     transition-duration: 1s;
     transition-timing-function: ease;
+    
+    
 
 
 }
@@ -51,6 +59,8 @@
     transition-property: background-color;
     transition-duration: 1s;
     transition-timing-function: ease;
+    margin-right: 20px;
+    
 }
 
 .button_submit:hover{
