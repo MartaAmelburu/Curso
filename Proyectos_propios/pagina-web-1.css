@@ -19,6 +19,8 @@
     background-color:#dadbf1;
     text-align: center;
     padding: 100px 0px;
+    font-size: 40px;
+    
 }
 
 .button_submit{
@@ -29,19 +31,42 @@
     border-width: 1px;
     border-radius: 5px;
     margin-right: 10px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+
 }
 
 .button_singin{
     background-color:#4C5FD5;
     color: white;
-    border-style: none;
+    border-color: white;
+    border-width: 1px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
     border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 
+.button_submit:hover{
+
+    background-color: #4C5FD5;
+
+}
+.button_singin:hover{
+
+    background-color: hsl(232, 46%, 44%);
+    transform: scale(1.1);
+
+}
 .search_bar{
-    
+margin-top: 25px;
+padding: 10px;
+width: 500px;
+
 }
