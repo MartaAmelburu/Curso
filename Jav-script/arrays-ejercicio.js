@@ -16,15 +16,21 @@ console.log(cochePequeño);
 //console.log(nuevasMarcas[4][1]);*/
 
 const fruteria = ['🍎','🍐','🍌','🍇'];
+const frutota = [];
 
 for (i = 0; i < fruteria.length; i++) {
   
 
    const frutita = fruteria[i];
     
-    if (i % 2 === 0){ 
-        console.log(fruteria[i]);
+    if (i % 2 === 1){ 
+        frutota.push(fruteria[i]);
+        console.log(frutota);
+        
     }
         
 }
 
+for (i = 0; i < fruteria.length; i++) {
+    fruteria[i] + 5;
+}
