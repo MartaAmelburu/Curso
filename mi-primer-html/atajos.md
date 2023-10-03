@@ -44,4 +44,4 @@
     relative el padre y absolut la cosa que quiero mover, top 0px bottom 3px
     margin 0 auto para centrar cajas
     f2 renombrar cosas varias
-   control k + control c para comentar y para descomentar control k + control u
+    control k + control c para comentar y para descomentar control k + control u
