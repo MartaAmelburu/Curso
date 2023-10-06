@@ -45,3 +45,11 @@
     margin 0 auto para centrar cajas
     f2 renombrar cosas varias
     control k + control c para comentar y para descomentar control k + control u
+    f2 renombrar para instancias de la variable.
+    control ç para comentar y descomentar
+
+
+
+    ----
+
+    refactorización
