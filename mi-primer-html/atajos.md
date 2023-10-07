@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- atajos -->
+
+   ** <!-- atajos -->
     shift + alt + flecha abajo = te copia lo seleccionado
     alt + flecha abajo = mueve lo seleccionado
     PRE = respetar espacios y saltos de linea en un textos, suele ir con <code></code>
@@ -50,5 +43,13 @@
     separar con un espacio para los hijos que sean plate :onlychild
     relative el padre y absolut la cosa que quiero mover, top 0px bottom 3px
     margin 0 auto para centrar cajas
-</body>
-</html>
+    f2 renombrar cosas varias
+    control k + control c para comentar y para descomentar control k + control u
+    f2 renombrar para instancias de la variable.
+    control ç para comentar y descomentar
+
+
+
+    ----
+
+    refactorización
