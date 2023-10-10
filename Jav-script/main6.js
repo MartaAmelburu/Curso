@@ -18,14 +18,20 @@ if (isNaN(sec) === false){
 }
 
 if (sec > 59){
+
     sec = 0;
     minutos++;
 }
 if (minutos > 59){
+
     minutos = 0;
     hora++;
 }
 if (hora > 23 ){
+<<<<<<< HEAD:main6.js
+    
+=======
+>>>>>>> a52915889065f9cd8faaa8bdbc0353d89ed517d6:Jav-script/main6.js
     hora = 0;
 }
 
@@ -33,7 +39,12 @@ if (hora > 23 ){
 console.log(`${hora} ${minutos} ${sec}`);
 
 
+<<<<<<< HEAD:main6.js
+if (typeof hora === 'number' && typeof minutos === 'number' && typeof sec === 'number'){
+}
+=======
 
+>>>>>>> a52915889065f9cd8faaa8bdbc0353d89ed517d6:Jav-script/main6.js
 /*if (sec == 59 && minutos == 59 && hora == 23){
 
     hora = 0;
