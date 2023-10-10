@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.centered{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: pink;
+}
+
+.inputs {
+    display: flex;
+    padding: 30px;
+    column-gap: 0.9rem;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    
+}
